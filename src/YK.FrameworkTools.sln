@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YK.FrameworkTools.SensitiveFilterService", "YK.FrameworkTools.SensitiveFilterService\YK.FrameworkTools.SensitiveFilterService.csproj", "{EF365E8B-8047-4051-A53E-986503B514CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTest", "UnitTest", "{128AE059-18D0-41DD-99A8-3302C4516D81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.SensitiveFilterService", "UnitTest\Test.SensitiveFilterService\Test.SensitiveFilterService.csproj", "{2F546F78-A604-4489-A7E5-A8FADAAEEBE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YK.FrameworkTools.EmailService", "YK.FrameworkTools.EmailService\YK.FrameworkTools.EmailService.csproj", "{416686EF-6BFF-4432-8622-F48C4BB32660}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YK.FrameworkTools.ToolHelper", "YK.FrameworkTools.ToolHelper\YK.FrameworkTools.ToolHelper.csproj", "{BCFAF1DF-780D-4DB0-B4A5-4AB30BDAB874}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.EmailService", "UnitTest\Test.EmailService\Test.EmailService.csproj", "{B87AD884-D359-4138-83D2-368C8E5C9346}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF365E8B-8047-4051-A53E-986503B514CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF365E8B-8047-4051-A53E-986503B514CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF365E8B-8047-4051-A53E-986503B514CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF365E8B-8047-4051-A53E-986503B514CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F546F78-A604-4489-A7E5-A8FADAAEEBE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F546F78-A604-4489-A7E5-A8FADAAEEBE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F546F78-A604-4489-A7E5-A8FADAAEEBE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F546F78-A604-4489-A7E5-A8FADAAEEBE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{416686EF-6BFF-4432-8622-F48C4BB32660}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{416686EF-6BFF-4432-8622-F48C4BB32660}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{416686EF-6BFF-4432-8622-F48C4BB32660}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{416686EF-6BFF-4432-8622-F48C4BB32660}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCFAF1DF-780D-4DB0-B4A5-4AB30BDAB874}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCFAF1DF-780D-4DB0-B4A5-4AB30BDAB874}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCFAF1DF-780D-4DB0-B4A5-4AB30BDAB874}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCFAF1DF-780D-4DB0-B4A5-4AB30BDAB874}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B87AD884-D359-4138-83D2-368C8E5C9346}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B87AD884-D359-4138-83D2-368C8E5C9346}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B87AD884-D359-4138-83D2-368C8E5C9346}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B87AD884-D359-4138-83D2-368C8E5C9346}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2F546F78-A604-4489-A7E5-A8FADAAEEBE3} = {128AE059-18D0-41DD-99A8-3302C4516D81}
+		{B87AD884-D359-4138-83D2-368C8E5C9346} = {128AE059-18D0-41DD-99A8-3302C4516D81}
+	EndGlobalSection
+EndGlobal
